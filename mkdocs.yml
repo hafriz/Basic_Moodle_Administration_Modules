@@ -1,0 +1,89 @@
+site_name: Basic Moodle Administration Modules
+site_description: Modular Moodle administration training materials for basic and advanced administrator learning paths.
+docs_dir: docs
+site_dir: site
+use_directory_urls: true
+
+nav:
+  - Home: index.md
+  - Moodle Administration Basics:
+      - Overview: moodle-administration-basics/README.md
+      - Training Overview: moodle-administration-basics/training-overview.md
+      - Practical Demonstrations: moodle-administration-basics/practical-demonstrations.md
+      - Exercises / Discussion Questions: moodle-administration-basics/exercises-discussion-questions.md
+      - Troubleshooting Scenarios: moodle-administration-basics/troubleshooting-scenarios.md
+      - Best Practices: moodle-administration-basics/best-practices.md
+      - Additional Resources: moodle-administration-basics/additional-resources.md
+      - Appendices: moodle-administration-basics/appendices.md
+      - Modules:
+          - Module 1 - Introduction to Moodle:
+              - Overview: moodle-administration-basics/modules/module-1-introduction-to-moodle/README.md
+              - What Is Moodle?: moodle-administration-basics/modules/module-1-introduction-to-moodle/01-what-is-moodle.md
+              - LMS Concept: moodle-administration-basics/modules/module-1-introduction-to-moodle/02-lms-concept.md
+              - Moodle Ecosystem: moodle-administration-basics/modules/module-1-introduction-to-moodle/03-moodle-ecosystem.md
+              - Common Use Cases in Universities: moodle-administration-basics/modules/module-1-introduction-to-moodle/04-common-use-cases-in-universities.md
+              - High-Level Architecture: moodle-administration-basics/modules/module-1-introduction-to-moodle/05-high-level-architecture.md
+          - Module 2 - Moodle Administration Basics:
+              - Overview: moodle-administration-basics/modules/module-2-moodle-administration-basics/README.md
+              - Site Administration: moodle-administration-basics/modules/module-2-moodle-administration-basics/01-site-administration.md
+              - User Management: moodle-administration-basics/modules/module-2-moodle-administration-basics/02-user-management.md
+              - Roles and Permissions: moodle-administration-basics/modules/module-2-moodle-administration-basics/03-roles-and-permissions.md
+              - Course Management: moodle-administration-basics/modules/module-2-moodle-administration-basics/04-course-management.md
+              - Activities Overview: moodle-administration-basics/modules/module-2-moodle-administration-basics/05-activities-overview.md
+          - Module 3 - Understanding Moodle Technical Components:
+              - Overview: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/README.md
+              - Moodle Directory Structure: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/01-moodle-directory-structure.md
+              - Database Overview: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/02-database-overview.md
+              - moodledata: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/03-moodledata.md
+              - Cron Jobs: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/04-cron-jobs.md
+              - Backend Workflow: moodle-administration-basics/modules/module-3-understanding-moodle-technical-components/05-backend-workflow.md
+          - Module 4 - Performance and Optimization Overview:
+              - Overview: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/README.md
+              - Why Moodle Becomes Slow: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/01-why-moodle-becomes-slow.md
+              - Server Resources: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/02-server-resources.md
+              - Cache Concepts: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/03-cache-concepts.md
+              - Database Considerations: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/04-database-considerations.md
+              - Basic Optimization Strategies: moodle-administration-basics/modules/module-4-performance-and-optimization-overview/05-basic-optimization-strategies.md
+          - Module 5 - Customization and Extensibility:
+              - Overview: moodle-administration-basics/modules/module-5-customization-and-extensibility/README.md
+              - Themes: moodle-administration-basics/modules/module-5-customization-and-extensibility/01-themes.md
+              - Plugins: moodle-administration-basics/modules/module-5-customization-and-extensibility/02-plugins.md
+              - Integrations: moodle-administration-basics/modules/module-5-customization-and-extensibility/03-integrations.md
+              - Branding: moodle-administration-basics/modules/module-5-customization-and-extensibility/04-branding.md
+              - Extending Moodle Features: moodle-administration-basics/modules/module-5-customization-and-extensibility/05-extending-moodle-features.md
+          - Module 6 - Maintenance and Troubleshooting:
+              - Overview: moodle-administration-basics/modules/module-6-maintenance-and-troubleshooting/README.md
+              - Routine Maintenance Checklist: moodle-administration-basics/modules/module-6-maintenance-and-troubleshooting/01-routine-maintenance-checklist.md
+              - Monitoring: moodle-administration-basics/modules/module-6-maintenance-and-troubleshooting/02-monitoring.md
+              - Common Issues: moodle-administration-basics/modules/module-6-maintenance-and-troubleshooting/03-common-issues.md
+              - Troubleshooting Workflow: moodle-administration-basics/modules/module-6-maintenance-and-troubleshooting/04-troubleshooting-workflow.md
+  - Moodle Administration Advance:
+      - Overview: moodle-administration-advance/README.md
+      - Training Overview: moodle-administration-advance/training-overview.md
+      - Advanced Practical Demonstrations: moodle-administration-advance/advanced-practical-demonstrations.md
+      - Advanced Exercises and Scenarios: moodle-administration-advance/advanced-exercises-and-scenarios.md
+      - Operational Checklists: moodle-administration-advance/operational-checklists.md
+      - Advanced Troubleshooting Scenarios: moodle-administration-advance/advanced-troubleshooting-scenarios.md
+      - Additional Resources: moodle-administration-advance/additional-resources.md
+      - Modules:
+          - Advanced Platform Architecture: moodle-administration-advance/modules/module-1-advanced-platform-architecture/README.md
+          - Security and Access Control: moodle-administration-advance/modules/module-2-security-and-access-control/README.md
+          - Performance, Scalability, and Caching: moodle-administration-advance/modules/module-3-performance-scalability-and-caching/README.md
+          - Automation, Integrations, and Reporting: moodle-administration-advance/modules/module-4-automation-integrations-and-reporting/README.md
+          - Upgrades, Backups, and Disaster Recovery: moodle-administration-advance/modules/module-5-upgrades-backups-and-disaster-recovery/README.md
+          - Advanced Troubleshooting and Operations: moodle-administration-advance/modules/module-6-advanced-troubleshooting-and-operations/README.md
+
+theme:
+  name: mkdocs
+  navigation_depth: 3
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - fenced_code
+  - admonition
+
+plugins:
+  - search
+
