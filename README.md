@@ -1,4 +1,4 @@
-# Basic Moodle Administration Modules
+# Technical Training and Modules for Moodle Administration
 
 This repository contains modular Moodle administration training materials for technical staff, LMS administrators, system administrators, and IT support teams.
 
@@ -42,28 +42,3 @@ This repository contains modular Moodle administration training materials for te
 ## GitHub Pages Documentation
 
 This repository is configured as a MkDocs site for publishing the Moodle administration training materials to GitHub Pages.
-
-### Local Preview
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Open the local preview URL shown by MkDocs, usually `http://127.0.0.1:8000/`.
-
-### Build Locally
-
-```bash
-mkdocs build --strict
-```
-
-The generated static site is written to the ignored `site/` directory.
-
-### Deploy to GitHub Pages
-
-A GitHub Actions workflow builds and deploys the MkDocs site when changes are pushed to the `main` branch. In the repository settings, set **Pages** to use **GitHub Actions** as the build and deployment source. After the workflow completes, the site will be available at the repository GitHub Pages URL, typically:
-
-```text
-https://<github-username>.github.io/<repository-name>/
-```
