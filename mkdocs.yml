@@ -6,6 +6,7 @@ use_directory_urls: true
 
 nav:
   - Home: index.md
+  - Internal and Customized Applications: applications.md
   - Moodle Administration Basics:
       - Overview: moodle-administration-basics/README.md
       - Training Overview: moodle-administration-basics/training-overview.md
