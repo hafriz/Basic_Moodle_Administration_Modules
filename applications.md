@@ -2,17 +2,19 @@
 
 This page lists internal e-Learning UMT applications, private Laravel/web systems, institution-specific support assets, and forked repositories that are kept because they contain e-Learning UMT edits, configuration, customization, or operational adaptations. Repository links are intentionally omitted.
 
+For subscription, purchase, or customization service enquiries related to any application in this catalogue, contact [el@umt.edu.my](mailto:el@umt.edu.my).
+
 !!! note "Catalogue scope"
     Forked repositories are not removed automatically. If a fork is customized, adapted, configured, translated, branded, or maintained for e-Learning UMT operations, it remains in this catalogue. Generic upstream repositories that are only kept as references should be excluded from future updates.
 
 ## Private / Internal Laravel and Web Applications
 
-| Application | Description |
-|---|---|
-| elearning_dashboard | Internal e-Learning dashboard for summarizing platform information, operational metrics, service status, or administrative views in one place. |
-| coursevault | Internal course archive or storage application for organizing course materials, backups, historical course records, or reusable teaching content. |
-| scholarscan | Internal scanning or verification application for scholar, student, or academic-document workflows. |
-| quizguardian | Laravel-based internal application for supporting quiz guarding, assessment monitoring, proctoring workflows, or related academic-integrity operations. |
+| Application | URL | Description |
+|---|---|---|
+| elearning_dashboard | [apps-el.umt.edu.my](https://apps-el.umt.edu.my) | Internal e-Learning dashboard for summarizing platform information, operational metrics, service status, or administrative views in one place. |
+| coursevault | [apps-el.umt.edu.my/coursevault](https://apps-el.umt.edu.my/coursevault) | Internal course archive or storage application for organizing course materials, backups, historical course records, or reusable teaching content. |
+| scholarscan | [apps-el.umt.edu.my/scholarscan](https://apps-el.umt.edu.my/scholarscan) | Internal scanning or verification application for scholar, student, or academic-document workflows. |
+| quizguardian | [exam.epembelajaran.umt.edu.my](https://exam.epembelajaran.umt.edu.my) | Laravel-based internal application for supporting quiz guarding, assessment monitoring, proctoring workflows, or related academic-integrity operations. |
 
 ## Internal Reporting and Operations Applications
 
@@ -23,6 +25,8 @@ This page lists internal e-Learning UMT applications, private Laravel/web system
 | e-Learning Map | Mapping or directory-style application for presenting e-Learning-related locations, services, or resources. |
 
 ## Customized Moodle Learning and Administration Extensions
+
+Main Moodle application: [epembelajaran.umt.edu.my](https://epembelajaran.umt.edu.my).
 
 | Application | Description |
 |---|---|
